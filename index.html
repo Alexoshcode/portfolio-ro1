@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruvintha Oshan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="assests/favicon.ico" type="images/x-icon" />
+  </head>
+
+  <body>
+    <!-- Desktop Nav-Bar -->
+    <nav id="desktop-nav">
+      <div class="logo">R</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hamburger Nav-bar -->
+    <nav id="hamburger-nav">
+      <div class="logo">R</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- profile-Section -->
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="./assests/profilepic.png" alt="profile-pic1" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello I'm</p>
+        <h1 class="title">Ruvintha Oshan</h1>
+        <p class="section_text_p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assests/Ruvintha Oshan.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="social-container">
+          <img src="./assests/linkedin.png" alt="my-linkedIn profile" /
+          class="icon"
+          onclick="location.href='https://www.linkedin.com/in/ruvintha-oshan-2374b6169'
+          "> <img src="./assests/github.png" alt="my-linkedIn profile" /
+          class="icon" onclick="location.href='https://github.com/Alexoshcode'
+          ">
+        </div>
+      </div>
+    </section>
+    ,
+    <!-- About -->
+    <section id="about">
+      <p class="section_text_p1">Get to know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./assests/aboutpic.png"
+            alt="profile-pic2"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assests/experience.png"
+                alt="Experiance-icon"
+                class="icon"
+              />
+              <h3>Experiance</h3>
+              <p>
+                3+ years <br />
+                Frontend Development
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assests/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                B.Sc Bachelors Degree in University of Moratuwa <br />
+                M.Sc Masters Degree in Tampere University
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptate dolor impedit asperiores cum reprehenderit a obcaecati
+              tempore repellat ipsam, et ex est debitis nihil doloremque,
+              incidunt quas, laborum porro doloribus!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills"
+      />
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
