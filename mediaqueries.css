@@ -56,7 +56,7 @@
   }
 
   .about-containers {
-    margin-top: 0;
+    margin-top: 1rem;
   }
 }
 
@@ -65,9 +65,9 @@
     height: 87vh;
     /* margin-bottom: 2rem; */
   }
+
   #about {
     margin: 2rem;
-    height: cover;
     margin-bottom: 1rem;
   }
 
@@ -83,10 +83,10 @@
     width: 2rem;
     height: 2rem;
   }
-  .table-body th{
+  .table-body th {
     font-size: 0.7rem;
   }
-  .table-body td{
+  .table-body td {
     font-size: 0.8rem;
   }
 
@@ -129,8 +129,17 @@
 
   .section_pic-container {
     width: auto;
-    height: 46vh;
+    height: 46vw;
     justify-content: center;
+  }
+
+  .section_pic-container img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .section_text_p1 {
+    margin-top: 4rem;
   }
   .section_text_p2 {
     font-size: 1.25rem;
