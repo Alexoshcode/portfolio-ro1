@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   background: url(./assests/bg3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@ html {
 }
 
 p {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   color: #fff;
 }
 
@@ -30,7 +30,7 @@ h3 {
 
 /* Transition */
 a,
-btn {
+.btn {
   transition: all 300ms ease;
 }
 
@@ -50,7 +50,6 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
-  /* text-transform: uppercase; */
 }
 
 a {
@@ -319,7 +318,7 @@ section {
 table {
   margin-top: 2rem;
   width: 48vh;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .table th {
@@ -340,6 +339,7 @@ table {
   padding: 0 5px;
   font-size: 1.3rem;
   text-align: center;
+  height: auto;
 }
 
 .table-body td:hover {
