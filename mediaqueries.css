@@ -3,7 +3,7 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
-  .about-container {
+  .about-containers {
     flex-wrap: wrap;
   }
 
@@ -22,8 +22,13 @@
   }
 
   #skills,
-  .skills-details-conatiner {
+  .table-body {
     margin-top: 2rem;
+  }
+
+  #skills {
+    margin: 0 2rem;
+    max-height: 100vh;
   }
 
   #profile,
@@ -56,20 +61,42 @@
 }
 
 @media screen and (max-width: 600px) {
+  #profile {
+    height: 87vh;
+    /* margin-bottom: 2rem; */
+  }
+  #about {
+    margin: 2rem;
+    height: cover;
+    margin-bottom: 1rem;
+  }
+
+  #skills {
+    height: cover;
+  }
+
+  table {
+    margin-top: 0.1rem;
+  }
+
+  .table-body img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .table-body th{
+    font-size: 0.7rem;
+  }
+  .table-body td{
+    font-size: 0.8rem;
+  }
+
+  #projects {
+    margin: 2rem;
+  }
   #contact,
   footer {
     height: 40vh;
   }
-
-  #profile {
-    height: 83vh;
-    margin-bottom: 0;
-  }
-
-  article {
-    font-size: 1rem;
-  }
-
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
@@ -88,10 +115,6 @@
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
-  }
-
-  .skills-sub-title {
-    font-size: 1.25rem;
   }
 
   .logo {
