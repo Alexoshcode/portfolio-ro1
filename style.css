@@ -174,8 +174,8 @@ a:hover {
 /* Sections */
 section {
   padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  /* height: 96vh; */
+  margin: 1rem 5rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -312,13 +312,12 @@ section {
   text-align: center;
   flex-direction: row;
   gap: 5rem;
-  max-height: 100vh;
+  /* max-height: 100vh; */
 }
 
 table {
   margin-top: 2rem;
   width: 48vh;
-  /* height: 80vh; */
 }
 
 .table th {

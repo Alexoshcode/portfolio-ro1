@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    /* height: 83vh; */
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -9,7 +9,7 @@
 
   #contact,
   #project {
-    height: fit-content;
+    /* height: fit-content; */
   }
 }
 
@@ -26,11 +26,6 @@
     margin-top: 2rem;
   }
 
-  #skills {
-    margin: 0 2rem;
-    max-height: 100vh;
-  }
-
   #profile,
   .section-container {
     display: block;
@@ -45,9 +40,6 @@
     height: fit-content;
   }
 
-  section {
-    margin: 0.5%;
-  }
 
   .section_pic-container {
     width: 275px;
@@ -61,8 +53,12 @@
 }
 
 @media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 600px) {
   #profile {
-    height: 87vh;
+    /* height: 87vh; */
     /* margin-bottom: 2rem; */
   }
 
