@@ -175,7 +175,7 @@ a:hover {
 section {
   padding-top: 4vh;
   /* height: 96vh; */
-  margin: 1rem 5rem;
+  margin: 5rem 5rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -270,8 +270,8 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+  right: -4rem;
+  bottom: 1rem;
   filter: invert(100%) sepia(79%) saturate(240%) hue-rotate(290deg)
     brightness(113%) contrast(100%);
 }
@@ -400,7 +400,7 @@ table {
   cursor: default;
 }
 
-.email-icon {
+.icon.email-icon {
   height: 2.5rem;
 }
 

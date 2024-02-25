@@ -7,10 +7,10 @@
     flex-wrap: wrap;
   }
 
-  #contact,
+  /* #contact,
   #project {
-    /* height: fit-content; */
-  }
+    /* height: fit-content; 
+  } */
 }
 
 @media screen and (max-width: 1200px) {
@@ -21,10 +21,10 @@
     display: flex;
   }
 
-  #skills,
+  /* #skills,
   .table-body {
     margin-top: 2rem;
-  }
+  } */
 
   #profile,
   .section-container {
@@ -57,19 +57,19 @@
 }
 
 @media screen and (max-width: 600px) {
-  #profile {
+  /* #profile {
     /* height: 87vh; */
-    /* margin-bottom: 2rem; */
-  }
+    /* margin-bottom: 2rem; 
+  } */
 
-  #about {
+  /* #about {
     margin: 2rem;
     margin-bottom: 1rem;
-  }
+  } */
 
-  #skills {
+  /* #skills {
     height: cover;
-  }
+  } */
 
   table {
     margin-top: 0.1rem;
@@ -89,13 +89,13 @@
     font-size: 0.6rem;
   }
 
-  #projects {
+  /* #projects {
     margin: 2rem;
   }
   #contact,
   footer {
     height: 40vh;
-  }
+  } */
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
